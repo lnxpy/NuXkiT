@@ -11,7 +11,6 @@ cleaner = {'Windows': 'cls',
 
 
 def connected_to_internet(url=server_url, timeout=5):
-
     try:
         _ = requests.get(url, timeout=timeout)
         return 'OK'
@@ -21,7 +20,6 @@ def connected_to_internet(url=server_url, timeout=5):
 
 
 def main(logged_in=False, username='', token=''):
-
     sys(cleaner)
     print(nux.format(
         login_user=username if logged_in else '----',
@@ -81,7 +79,6 @@ def main(logged_in=False, username='', token=''):
 
 
 def login(username, password):
-
     try:
         r = requests.post(
             login_url, json={'username': username, 'password': password}).json()
@@ -91,7 +88,6 @@ def login(username, password):
 
 
 def commander(url, token):
-
     snippets = requests.get(url, headers={
                             'Authorization': 'token {}'.format(token)}).json()
     return snippets
