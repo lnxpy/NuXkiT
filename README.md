@@ -1,5 +1,5 @@
 # NuXkiT
-NuXkiT is a featured CodeHub Command-Line Interface (CLI) allows admins to interact with statistics on the client side. NuX uses RESTful API service to transfer data. Also, you need to be signed in as an admin on the server. In this case, CodeHub can generate a new token for you, so you can use the achieved token key to integrate with suggestions, snippets, and teammates are submitted to the database.
+NuXkiT is a featured CodeHub CLI allows admins to interact with statistics on the client side. NuX uses RESTful API service to transfer data. Also, you need to be signed in as an admin on the server. In this case, CodeHub can generate a new token for you, so you can use the achieved token key to integrate with suggestions, snippets, and teammates are submitted to the database.
 
 ### Login
 First, you can use the facilities if you log in. You are able to login/out any time you want with commanders.
